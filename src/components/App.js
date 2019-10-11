@@ -12,7 +12,7 @@ class App extends React.Component {
     };
 
     componentDidMount() {
-        this.getSearchResult('js lessons');
+        this.getSearchResult('JavaScript');
     }
 
     getSearchResult = async term => {
